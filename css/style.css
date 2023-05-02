@@ -1,0 +1,47 @@
+.container{
+width: 550px;
+border: 15px solid maroon;
+padding: 50px;
+margin: 20px;
+}
+nav{
+    font-weight: bold;
+    font-size: 25px;
+    color: maroon;
+    align-items: center;
+    justify-content: center;
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 1.3rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: gray;
+}
+.content-table thead tr{
+    background-color: maroon;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+.content-table th td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid yellow;
+    height: 60px;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: maroon;
+    color: white;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid Pink;
+}
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: pink;
+}
